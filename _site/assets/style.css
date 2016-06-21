@@ -2,6 +2,15 @@
   display: none;
 }
 
+
+span#iceland {
+  font-family: 'Iceland', cursive;
+}
+
+span#monofett {
+  font-family: 'Monofett', cursive;
+}
+
 body {
 margin: 0;
 }

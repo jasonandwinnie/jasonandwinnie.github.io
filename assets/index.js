@@ -20,7 +20,7 @@ function randomPlacement(array) {
 var canvas = oCanvas.create({
    canvas: '#canvas',
    background: '#F1EED9',
-   fps: 60
+   fps: 20
 });
 
 setInterval(function(){
@@ -37,7 +37,7 @@ var rectangle = canvas.display.ellipse({
 canvas.addChild(rectangle);
 
 rectangle.animate({
-  radius: 20,
+  radius: 10,
   opacity: 0
 }, {
   duration: '1000',

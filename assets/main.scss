@@ -81,6 +81,13 @@ since it must be aligned with the content */
 }
 
 /*** author ***/
+
+.author-container{
+	margin-left: 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+
 .author-container h1 {
 	font-size: 2.8em;
 	margin-top: 0;
@@ -149,7 +156,7 @@ footer {
 	.author-container h1,
 	.logo-container,
 	.tagline-container p {
-		text-align: right;
+		text-align: center;
 	}
 
 	main {

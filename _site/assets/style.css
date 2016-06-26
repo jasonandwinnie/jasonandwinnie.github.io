@@ -2,6 +2,9 @@
   display: none;
 }
 
+div.logo-container {
+  margin-top: 40px;
+}
 
 span#iceland {
   font-family: 'Iceland', cursive;

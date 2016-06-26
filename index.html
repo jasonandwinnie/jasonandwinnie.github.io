@@ -2,26 +2,26 @@
 layout: base
 ---
 <div class="wrapper">
-    <header>
-        {% if site.compass.logo %}
-        <div class="logo-container">
-          <a class="logo" href="{{ page.baseurl }}" style="background-image: url('{{ site.baseurl }}{{ site.compass.logo }}')"></a>
-        </div>
-        {% endif %}
+  <header>
+    {% if site.compass.logo %}
+    <div class="logo-container">
+      <a class="logo" href="{{ page.baseurl }}" style="background-image: url('{{ site.baseurl }}{{ site.compass.logo }}')"></a>
+    </div>
+    {% endif %}
 
-        {% if site.compass.author %}
-        <div class="author-container">
-          <span id="iceland">Together with our families</span>
-          <span id="monofett"><h1>{{ site.compass.author }}</h1></span>
-          <span id="iceland">invite you to share <br>in the joy of their marriage</span>
-        </div>
-        {% endif %}
-    </header>
-    <main>
-      {% if site.compass.include_content %}
-      <div class="content">
-        {% include content.html %}
-      </div>
-      {% endif %}
-    </main>
+    {% if site.compass.author %}
+    <div class="author-container">
+      <span id="iceland">Together with our families</span>
+      <span id="monofett"><h1>{{ site.compass.author }}</h1></span>
+      <span id="iceland">invite you to share <br>in the joy of our marriage</span>
+    </div>
+    {% endif %}
+  </header>
+  <main>
+    {% if site.compass.include_content %}
+    <div class="content">
+      {% include content.html %}
+    </div>
+    {% endif %}
+  </main>
 </div>

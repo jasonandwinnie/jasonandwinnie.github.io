@@ -25,13 +25,13 @@ $(function () {
     $('<a/>')
       .append($('<img>').prop('src', dir + i + '_s.jpeg'))
       .prop('href', dir + i + '.jpeg')
-      .prop('title', '')
+      .prop('title', i)
       .attr('data-gallery', '')
       .appendTo(linksContainer)
 
     carouselLinks.push({
           href: dir + i + '.jpeg',
-          title: ""
+          title: i
         })
   }
 

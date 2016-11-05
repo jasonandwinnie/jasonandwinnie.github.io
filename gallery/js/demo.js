@@ -16,7 +16,7 @@ $(function () {
 
   var linksContainer = $('#links')
   var carouselLinks = []
-  var max = 64;
+  var max = 74;
   var dir = "images/";
   var i = 1;
 

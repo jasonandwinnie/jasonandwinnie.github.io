@@ -22,17 +22,17 @@ $(function () {
   for (i; i < max; i++) {
 
 
-        // $('<a/>')
-        //   .append($('<img>').prop('src', dir + i + '.jpeg'))
-        //   .prop('href', dir + i + '.jpeg')
-        //   .prop('title', '')
-        //   .attr('data-gallery', '')
-        //   .appendTo(linksContainer)
+        $('<a/>')
+          .append($('<img>').prop('src', dir + i + '.jpeg'))
+          // .prop('href', dir + i + '.jpeg')
+          .prop('title', '')
+          .attr('data-gallery', '')
+          .appendTo(linksContainer)
 
 
     carouselLinks.push({
           href: dir + i + '.jpeg',
-          title: "information"
+          title: ""
         })
   }
 
